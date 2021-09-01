@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ATG.WORLD</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .row1 {
+            /* background-color: red; */
+            width: 100%;
+            padding: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- https://www.figma.com/file/3JSewtm2MOLDNt0SsEJFgD/Groups---copy?node-id=0%3A1 -->
+    <div id="desktop-screen">
+        <nav class="row row1 d-flex align-items-center justify-content-center" style="height: 80px;">
+            <span class="col-md-4 col-sm-4" style="text-align: center;color: #27A365;">ATG.<span
+                    style="color: #5C5D5D;">W</span><img src="./Union 1.png" alt="" width="20px" height="20px"><span
+                    style="color: #5C5D5D;">ORLD</span></span>
+            <span class="col-md-4 col-sm-4" style="background: #F2F2F2;border-radius: 21px;padding: 4px;"><i
+                    class="fa fa-search" style="color: #7A7A7A;padding: 4px;"></i><input type="text"
+                    placeholder="Search for your favorite groups in ATG"
+                    style="border: 0;outline: 0;width: 90%;background-color: transparent; padding: 4px;"></span>
+            <span class="col-md-4 col-sm-4" style="text-align: center;cursor: pointer;" data-bs-toggle="modal"
+                data-bs-target="#login" id="notl">Create
+                Account.<span class="text-primary">It's
+                    free</span><i class="fa fa-caret-down p-2"></i></span>
+            <span class="col-md-4 col-sm-4 justify-content-center align-items-center" id="yesl" style="display: none;">
+                <img src="./Rectangle 3 (5).png" class="mx-2" alt=""><span
+                    style="font-size: 14px; font-weight: 500;">Siddharth Goyal</span><i
+                    class="fa fa-caret-down p-2"></i></span>
+        </nav>
+        <div>
+            <div class="parent" style="position: relative;top: 0;left: 0;">
+                <img src="./Rectangle 2 (1).png" alt=""
+                    style="width: 100%;position: relative;top: 0;left: 0;height: 62vh;">
+                <img src="./Rectangle 3.png" alt="" style="width: 100%;position: absolute;top: 0;left: 0;height: 62vh;">
+            </div>
+            <span
+                style="font-weight: bold;color: white;font-size: 36px;position: relative;top: -150px;left: 40px;">Computer
+                Engineering</span><br>
+            <span
+                style="font-weight: normal;color: white;font-size: 18px;position: relative;top: -150px;left: 40px;">142,765
+                Computer Engineers follow this</span>
+        </div>
+
+        <div class="container">
+            <div class="row m-2">
+                <div class="col-md-8 col-sm-8">
+                    <div class="row">
+                        <span class="col-md-2 col-sm-2 text-black" style="cursor: pointer;">All Posts(32)</span>
+                        <span class="col-md-2 col-sm-2" style="color: #8A8A8A;cursor: pointer;">Article</span>
+                        <span class="col-md-2 col-sm-2" style="color: #8A8A8A;cursor: pointer;">Event</span>
+                        <span class="col-md-2 col-sm-2" style="color: #8A8A8A;cursor: pointer;">Education</span>
+                        <span class="col-md-2 col-sm-2" style="color: #8A8A8A;cursor: pointer;">Job</span>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="row">
+                        <button class="btn btn-light col-md-5 col-sm-5 mx-2" style="background:#EDEEF0;">Write a Post<i
+                                class="fa fa-caret-down p-2"></i></button>
+                        <button class="btn btn-primary col-md-5 col-sm-5 mx-2" style="background:#2F6CE5;" id="j2"><i
+                                class="fa fa-users p-2"></i>Join Group</button>
+                        <button class="btn btn-light col-md-5 col-sm-5 mx-2" id="l2"
+                            style="background:white;border: 1px solid #989899;color: #989899;display: none;"><img
+                                src="./Vector.png" alt=""> Leave
+                            Group</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-1">
+                <div class="col-md-2 col-sm-2 border" style="height: 3px;background-color: black;"></div>
+                <hr class="text-black col-md-10 col-sm-10">
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-sm-8 p-2">
+                    <div class="card mx-5 my-1">
+                        <img src="./Rectangle 5 (2).png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="fw-bold">✍️ Article</p>
+                            <div class="row">
+                                <div class="col-md-10 col-sm-10 fw-bold" style="font-size: 22px;">What if famous brands
+                                    had
+                                    regular
+                                    fonts? Meet RegulaBrands!</div>
+                                <div class="col-md-2 col-sm-2 fw-bold" style="font-size: 20px;"><i
+                                        class="fa fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="my-2">
+                                I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
+                            </div>
+                            <div class="row my-2 d-flex align-items-center">
+                                <img src="./Rectangle 3@2x.png" class="col-md-1 col-sm-1" alt="">
+                                <span class="fw-bold col-md-7 col-sm-7">Sarthak Kamra</span>
+                                <i class="fa fa-eye col-md-2 col-sm-2 fw-bold d-flex align-items-center"
+                                    style="font-size: 20px;"><span class="mx-2"
+                                        style="color: #525252;font-size: 14px;">1.4k
+                                        views</span></i>
+                                <i class="fa fa-share-alt col-md-1 col-sm-1 d-flex align-items-center justify-content-center rounded"
+                                    style="color: #2D2D2D;background-color: #EDEEF0; height: 40px;width: 40px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mx-5 my-1">
+                        <img src="./Rectangle 5 (1).png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="fw-bold">🔬️ Education</p>
+                            <div class="row">
+                                <div class="col-md-10 col-sm-10 fw-bold" style="font-size: 22px;">Tax Benefits for
+                                    Investment
+                                    under
+                                    National Pension Scheme launched by Government</div>
+                                <div class="col-md-2 col-sm-2 fw-bold" style="font-size: 20px;"><i
+                                        class="fa fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="my-2">
+                                I’ve worked in UX for the better part of a decade. From now on, I plan to rei…
+                            </div>
+                            <div class="row my-2 d-flex align-items-center">
+                                <img src="./Rectangle 3 (3).png" class="col-md-1 col-sm-1" alt="">
+                                <span class="fw-bold col-md-7 col-sm-7">Sarah West</span>
+                                <i class="fa fa-eye col-md-2 col-sm-2 fw-bold d-flex align-items-center"
+                                    style="font-size: 20px;"><span class="mx-2"
+                                        style="color: #525252;font-size: 14px;">1.4k
+                                        views</span></i>
+                                <i class="fa fa-share-alt col-md-1 col-sm-1 d-flex align-items-center justify-content-center rounded"
+                                    style="color: #2D2D2D;background-color: #EDEEF0; height: 40px;width: 40px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mx-5 my-1">
+                        <img src="./Rectangle 5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="fw-bold">🗓️ Meetup</p>
+                            <div class="row">
+                                <div class="col-md-10 col-sm-10 fw-bold" style="font-size: 22px;">Finance & Investment
+                                    Elite
+                                    Social
+                                    Mixer @Lujiazui</div>
+                                <div class="col-md-2 col-sm-2 fw-bold" style="font-size: 20px;"><i
+                                        class="fa fa-ellipsis-h d-flex align-items-center justify-content-center rounded"
+                                        style="color: #2D2D2D;background-color: #EDEEF0; height: 40px;width: 40px;"></i>
+                                </div>
+                            </div>
+                            <div class="my-2 row">
+                                <div class="col-md-4 col-sm-4 fw-bold"><i class="fa fa-calendar mx-2"></i>Fri, 12 Oct,
+                                    2018</div>
+                                <div class="col-md-4 col-sm-4 fw-bold"><i class="fa fa-map-marker mx-2"
+                                        aria-hidden="true"></i>Ahmedabad, India</div>
+                                <div class="col-md-4 col-sm-4 d-flex align-items-center bg-light shadow flex-column"
+                                    style="z-index: 1;">
+                                    <span class="p-2">Edit</span>
+                                    <span class="p-2">Report</span>
+                                    <span class="p-2">Option 3</span>
+                                </div>
+                            </div>
+                            <div class="p-2 m-2 d-flex justify-content-center align-items-center border rounded text-danger fw-bold"
+                                style="cursor: pointer;position: relative;top: -70px;"><span>Visit Website</span></div>
+                            <div class="row my-2 d-flex align-items-center">
+                                <img src="./Rectangle 3 (4).png" class="col-md-1 col-sm-1" alt="">
+                                <span class="fw-bold col-md-7 col-sm-7">Ronal Jones</span>
+                                <i class="fa fa-eye col-md-2 col-sm-2 fw-bold d-flex align-items-center"
+                                    style="font-size: 20px;"><span class="mx-2"
+                                        style="color: #525252;font-size: 14px;">1.4k
+                                        views</span></i>
+                                <i class="fa fa-share-alt col-md-1 col-sm-1 d-flex align-items-center justify-content-center rounded"
+                                    style="color: #2D2D2D;background-color: #EDEEF0; height: 40px;width: 40px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mx-5 my-1">
+                        <div class="card-body">
+                            <p class="fw-bold">💼️ Job</p>
+                            <div class="row">
+                                <div class="col-md-10 col-sm-10 fw-bold" style="font-size: 22px;">Software Developer
+                                </div>
+                                <div class="col-md-2 col-sm-2 fw-bold" style="font-size: 20px;"><i
+                                        class="fa fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="my-2 row">
+                                <div class="col-md-4 col-sm-4 fw-bold"><i class="fa fa-briefcase mx-2"
+                                        aria-hidden="true"></i>Innovaccer Analytics Private Ltd.</div>
+                                <div class="col-md-4 col-sm-4 fw-bold"><i class="fa fa-map-marker mx-2"
+                                        aria-hidden="true"></i>Noida,
+                                    India</div>
+                            </div>
+                            <div class="p-2 m-2 d-flex justify-content-center align-items-center border rounded fw-bold"
+                                style="cursor: pointer;color: #02B875;"><span>Apply on Timesjobs</span></div>
+                            <div class="row my-2 d-flex align-items-center">
+                                <img src="./Rectangle 3 (5).png" class="col-md-1 col-sm-1" alt="">
+                                <span class="fw-bold col-md-7 col-sm-7">Joseph Gray</span>
+                                <i class="fa fa-eye col-md-2 col-sm-2 fw-bold d-flex align-items-center"
+                                    style="font-size: 20px;"><span class="mx-2"
+                                        style="color: #525252;font-size: 14px;">1.4k
+                                        views</span></i>
+                                <i class="fa fa-share-alt col-md-1 col-sm-1 d-flex align-items-center justify-content-center rounded"
+                                    style="color: #2D2D2D;background-color: #EDEEF0; height: 40px;width: 40px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 d-flex justify-content-start flex-column">
+                    <div class="row m-2" id="plo">
+                        <span class="col-md-10 col-sm-10 fw-bold"><i class="fa fa-map-marker mx-2"
+                                aria-hidden="true"></i>Noida,
+                            India</span>
+                        <span class="col-md-2 col-sm-2 fw-bold"><i class="fa fa-pencil mx-2"
+                                aria-hidden="true"></i></span>
+                    </div>
+                    <div class="row m-2" id="enlo" style="display: none;">
+                        <span class="col-md-10 col-sm-10"><i class="fa fa-map-marker mx-2" aria-hidden="true"></i><input
+                                type="text" placeholder="Enter your location" style="border: 0;outline: 0;"></span>
+                        <span class="col-md-2 col-sm-2"><i class="fa fa-close mx-2" aria-hidden="true"></i></span>
+                    </div>
+
+                    <hr class="m-2 text-black">
+                    <span class="m-2 row d-flex justify-content-center align-items-center" style="color: gray;">
+                        <i class="fa fa-exclamation-circle col-md-2 col-sm-2" aria-hidden="true"></i><span
+                            class="col-md-10 col-sm-10">Your
+                            location will help us serve better and extend a personalised
+                            experience.</span>
+                    </span>
+                    <div id="fgrp" style="display: none;">
+                        <div class="d-flex align-items-center justify-content-center" style="margin-top: 50px;">
+                            <img src="./Vector (1).png" alt="" class="mx-2"><span
+                                style="font-family: 'Courier New', Courier, monospace;">RECOMMENDED GROUPS</span>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center flex-column">
+                            <div class="row m-3">
+                                <img src="./a1.png" class="col-md-3 p-2" alt="" style="width: 50px;">
+                                <span class="col-md-5 p-2" style="width: 140px;">Leisure</span>
+                                <span class="col-md-4 p-2 rounded-pill d-flex align-items-center justify-content-center"
+                                    style="cursor: pointer;background-color: #EDEEF0;text-align: center;height: 43px;width: 90px;"
+                                    id="a1">Follow</span>
+                            </div>
+                            <div class="row m-3">
+                                <img src="./a2.png" class="col-md-3 p-2" alt="" style="width: 50px;">
+                                <span class="col-md-5 p-2" style="width: 140px;">Activism</span>
+                                <span class="col-md-4 p-2 rounded-pill d-flex align-items-center justify-content-center"
+                                    style="cursor: pointer;background-color: #EDEEF0;text-align: center;height: 43px;width: 90px;"
+                                    id="a2">Follow</span>
+                            </div>
+                            <div class="row m-3">
+                                <img src="./a3.png" class="col-md-3 p-2" alt="" style="width: 50px;">
+                                <span class="col-md-5 p-2" style="width: 140px;">MBA</span>
+                                <span class="col-md-4 p-2 rounded-pill d-flex align-items-center justify-content-center"
+                                    style="cursor: pointer;background-color: #EDEEF0;text-align: center;height: 43px;width: 90px;"
+                                    id="a3">Follow</span>
+                            </div>
+                            <div class="row m-3">
+                                <img src="./a4.png" class="col-md-3 p-2" alt="" style="width: 50px;">
+                                <span class="col-md-5 p-2" style="width: 140px;">Philosophy</span>
+                                <span class="col-md-4 p-2 rounded-pill d-flex align-items-center justify-content-center"
+                                    style="cursor: pointer;background-color: #EDEEF0;text-align: center;height: 43px;width: 90px;"
+                                    id="a4">Follow</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade " id="login" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content" id="log1">
+                    <i class="fa fa-times position-absolute rounded-circle"
+                        style="right: 10px;top: -40px;font-size: 20px;background: #EFFFF4;color: black;padding: 5px;cursor: pointer;"
+                        aria-hidden="true" data-bs-dismiss="modal"></i>
+                    <div class="p-3"
+                        style="font-size: 14px;color: #008A45;font-weight: 500;background-color: #EFFFF4;text-align: center;">
+                        Let's learn,
+                        share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</div>
+
+                    <div class="row p-2">
+                        <div class="col-md-6 col-sm-6 p-3">
+                            <h2 class="m-2">Create Account</h2>
+                            <form action="#" class="m-3">
+                                <div class="row" style="background-color: #F7F8FA;">
+                                    <input class="col-md-6 col-sm-6 p-2 rounded-start"
+                                        style="border: 0;outline: 0;border: 1px solid #D9D9DB;background-color: #F7F8FA;"
+                                        placeholder="First Name" type="text"></input>
+                                    <input class="col-md-6 col-sm-6 p-2 rounded-end"
+                                        style="border: 0;outline: 0;border: 1px solid #D9D9DB;background-color: #F7F8FA;"
+                                        placeholder="Last Name" type="text"></input>
+                                </div>
+                                <div class="row">
+                                    <input type="email" class="col-md-12 col-sm-12 p-2" placeholder="Email"
+                                        style="border: 0;outline: 0;border: 1px solid #D9D9DB;background-color: #F7F8FA;">
+                                </div>
+                                <div class="row d-flex align-items-center"
+                                    style="background-color: #F7F8FA;border-right: 1px solid #D9D9DB;">
+                                    <input type="password" class="col-md-10 col-sm-10 p-2" placeholder="Password"
+                                        style="border: 0;outline: 0;border-top: 1px solid #D9D9DB; background-color: #F7F8FA;border-bottom: 1px solid #D9D9DB;border-left: 1px solid #D9D9DB;">
+                                    <i class="fa fa-eye col-md-2 col-sm-2" aria-hidden="true"
+                                        style="border: 0;outline: 0;background-color: #F7F8FA;color: gray;"></i>
+                                </div>
+                                <div class="row">
+                                    <input type="password" class="col-md-12 col-sm-12 p-2 rounded-bottom"
+                                        placeholder="Confirm Password"
+                                        style="border: 0;outline: 0;border: 1px solid #D9D9DB;background-color: #F7F8FA;">
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <button class="btn btn-primary rounded-pill col-md-12 col-sm-12"
+                                        type="submit">Create
+                                        Account</button>
+                                </div>
+                            </form>
+
+                            <div class="row m-3 p-1 d-flex justify-content-center align-items-center border border-secondary rounded-2"
+                                style="cursor: pointer;">
+                                <div class="col-md-2 col-sm-2">
+                                    <img src="./f_logo_RGB-Blue_1024.png" alt="" width="20px" height="20px">
+                                </div>
+                                <span class="m-2 col-md-9 col-sm-9">Sign up with Facebook</span>
+                            </div>
+
+                            <div class="row m-3 p-1 d-flex justify-content-center align-items-center border border-secondary rounded-2"
+                                style="cursor: pointer;">
+                                <div class="col-md-2 col-sm-2">
+                                    <img src="./search.png" alt="" width="20px" height="20px">
+                                </div>
+                                <span class="m-2 col-md-9 col-sm-9">Sign up with Google</span>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-6 p-3 d-flex flex-column justify-content-between">
+                            <div style="text-align: end;cursor: pointer;" class="m-2 me-3" id="supbtn">Already have an
+                                account?<span class="text-primary">Sign In</span></div>
+                            <div class="d-flex justify-content-center align-items-center m-2" style="margin-top: 40px;">
+                                <img src="./signup.png" alt="">
+                            </div>
+                            <div style="font-size: 11px;">By signing up, you agree to our Terms & conditions, Privacy
+                                policy
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-content" id="sgu1" style="display: none;">
+                    <i class="fa fa-times position-absolute rounded-circle"
+                        style="right: 10px;top: -40px;font-size: 20px;background: #EFFFF4;color: black;padding: 5px;cursor: pointer;"
+                        aria-hidden="true" data-bs-dismiss="modal"></i>
+                    <div class="p-3"
+                        style="font-size: 14px;color: #008A45;font-weight: 500;background-color: #EFFFF4;text-align: center;">
+                        Let's learn,
+                        share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</div>
+
+                    <div class="row p-2">
+                        <div class="col-md-6 col-sm-6 p-3">
+                            <h2 class="m-2">Sign In</h2>
+                            <form action="#" class="m-3">
+
+                                <div class="row rounded-start">
+                                    <input type="email" class="col-md-12 col-sm-12 p-2" placeholder="Email"
+                                        style="border: 0;outline: 0;border: 1px solid #D9D9DB;background-color: #F7F8FA;">
+                                </div>
+                                <div class="row d-flex align-items-center rounded-bottom"
+                                    style="background-color: #F7F8FA;border-right: 1px solid #D9D9DB;border-bottom: 1px solid #D9D9DB;">
+                                    <input type="password" class="col-md-10 col-sm-10 p-2" placeholder="Password"
+                                        style="border: 0;outline: 0;border-top: 1px solid #D9D9DB; background-color: #F7F8FA;border-bottom: 1px solid #D9D9DB;border-left: 1px solid #D9D9DB;">
+                                    <i class="fa fa-eye col-md-2 col-sm-2" aria-hidden="true"
+                                        style="border: 0;outline: 0;background-color: #F7F8FA;color: gray;"></i>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <button class="btn btn-primary rounded-pill col-md-12 col-sm-12" type="submit">Sign
+                                        In</button>
+                                </div>
+                            </form>
+
+                            <div class="row m-3 p-1 d-flex justify-content-center align-items-center border border-secondary rounded-2"
+                                style="cursor: pointer;">
+                                <div class="col-md-2 col-sm-2">
+                                    <img src="./f_logo_RGB-Blue_1024.png" alt="" width="20px" height="20px">
+                                </div>
+                                <span class="m-2 col-md-9 col-sm-9">Sign in with Facebook</span>
+                            </div>
+
+                            <div class="row m-3 p-1 d-flex justify-content-center align-items-center border border-secondary rounded-2"
+                                style="cursor: pointer;">
+                                <div class="col-md-2 col-sm-2">
+                                    <img src="./search.png" alt="" width="20px" height="20px">
+                                </div>
+                                <span class="m-2 col-md-9 col-sm-9">Sign in with Google</span>
+                            </div>
+
+                            <div class="m-3 p-1 d-flex justify-content-center"
+                                style="font-weight: 500;font-style: normal;font-size: 12px;color: black;">
+                                Forgot Password?
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-6 p-3 d-flex flex-column justify-content-between">
+                            <div style="text-align: end;cursor: pointer;" class="m-2 me-3" id="lgbtn">Don’t have an
+                                account
+                                yet?<span class="text-primary"> Create new for free!</span></div>
+                            <div class="d-flex justify-content-center align-items-center m-2" style="margin-top: 40px;">
+                                <img src="./signup.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="mobile-screen">
+        <div style="background: linear-gradient(180deg, #FF5C5C 0%, #F0568A 100%);position: fixed; bottom: 10px; right: 10px;z-index: 1;width: 60px;height: 60px;padding: 5px; border-radius: 50%;cursor: pointer;"
+            class="shadow-lg d-flex justify-content-center align-items-center">
+            <i class="fa fa-pencil" style="color: white;z-index: 1;"></i>
+        </div>
+        <div>
+            <div class="parent" style="position: relative;top: 0;left: 0;">
+                <img src="./Rectangle 2 (1).png" alt=""
+                    style="width: 100%;position: relative;top: 0;left: 0;height: 236px;">
+                <img src="./Rectangle 3.png" alt=""
+                    style="width: 100%;position: absolute;top: 0;left: 0;height: 236px;">
+            </div>
+            <span
+                style="font-weight: bold;color: white;font-size: 17px;position: relative;top: -100px;left: 16px;">Computer
+                Engineering</span><br>
+            <span
+                style="font-weight: normal;color: white;font-size: 16px;position: relative;top: -100px;left: 16px;">142,765
+                Computer Engineers follow this</span>
+            <i class="fa fa-arrow-left text-light" style="position: absolute;top: 20px;left: 20px;"></i>
+            <button class="btn btn-outline-light border border-white" id="join"
+                style="position: absolute;top: 18px;right: 20px;cursor: pointer;" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Join Group</button>
+            <button class="btn btn-outline-light border border-white" id="leave"
+                style="position: absolute;top: 18px;right: 20px;cursor: pointer;display: none;">Leave Group</button>
+        </div>
+
+        <div class="m-0">
+            <div class="row mx-2">
+                <div class="">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="text-black fw-bold" style="cursor: pointer;">Posts(368)</span>
+                        <button class="btn btn-sm btn-light" style="background:#EDEEF0;width: 100px;">Filter: All<i
+                                class="fa fa-caret-down p-2"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-12 col-sm-12 p-2 d-flex justify-content-center flex-column">
+                    <div class="card my-1" style="width: 100%;">
+                        <img src="./Rectangle 5 (2).png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p style="font-size: 14px; font-weight: 500;">✍️ Article</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="fw-bold" style="font-size: 16px;font-weight: 600;">What if famous brands
+                                    had
+                                    regular
+                                    fonts? Meet RegulaBrands!</div>
+                                <div class="fw-bold" style="font-size: 16px;"><i class="fa fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="my-2" style="font-size: 14px;font-weight: normal;">
+                                I’ve worked in UX for the better part of a decade. F..
+                            </div>
+                            <div class="my-2 d-flex align-items-center justify-content-between">
+                                <div class="d-flex">
+                                    <img src="./Rectangle 3@2x.png" class="mx-1" alt="" width="37px" height="37px">
+                                    <div class="d-flex justify-content-center flex-column">
+                                        <span class="fw-bold mx-1" style="font-size: 13px;">Sarthak Kamra</span>
+                                        <span class="mx-1" style="color: #525252;font-size: 14px;">1.4k
+                                            views</span>
+                                    </div>
+                                </div>
+                                <i class="fa fa-share-alt  d-flex align-items-center justify-content-center rounded"
+                                    style="color: #2D2D2D;background-color: #EDEEF0; height: 40px;width: 70px;"><span
+                                        class="mx-2">Share</span></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card my-1" style="width: 100%;">
+                        <img src="./Rectangle 5 (1).png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p style="font-size: 14px; font-weight: 500;">🔬️ Education</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="fw-bold" style="font-size: 16px;font-weight: 600;">Tax Benefits for
+                                    Investment
+                                    under
+                                    National Pension Scheme launched by Government</div>
+                                <div class="fw-bold" style="font-size: 16px;"><i class="fa fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="my-2" style="font-size: 14px;font-weight: normal;">
+                                I’ve worked in UX for the better part of a decade. F..
+                            </div>
+                            <div class="my-2 d-flex align-items-center justify-content-between">
+                                <div class="d-flex">
+                                    <img src="./Rectangle 3 (3).png" class="mx-1" alt="" width="37px" height="37px">
+                                    <div class="d-flex justify-content-center flex-column">
+                                        <span class="fw-bold mx-1" style="font-size: 13px;">Sarah West</span>
+                                        <span class="mx-1" style="color: #525252;font-size: 14px;">1.4k
+                                            views</span>
+                                    </div>
+                                </div>
+                                <i class="fa fa-share-alt  d-flex align-items-center justify-content-center rounded"
+                                    style="color: #2D2D2D;background-color: #EDEEF0; height: 40px;width: 70px;"><span
+                                        class="mx-2">Share</span></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card my-1" style="width: 100%;">
+                        <img src="./Rectangle 5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p style="font-size: 14px; font-weight: 500;">🗓️ Meetup</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="fw-bold" style="font-size: 16px;font-weight: 600;">Finance & Investment
+                                    Elite
+                                    Social
+                                    Mixer @Lujiazui</div>
+                                <div class="fw-bold" style="font-size: 16px;"><i class="fa fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="my-2 d-flex">
+                                <div><i class="fa fa-calendar mx-2" style="font-size: 12px;font-weight: 400;"></i>Fri,
+                                    12 Oct,
+                                    2018</div>
+                                <div><i class="fa fa-map-marker mx-2" style="font-size: 12px;font-weight: 400;"
+                                        aria-hidden="true"></i>Ahmedabad, India</div>
+                            </div>
+                            <div class="p-1 my-4 d-flex justify-content-center align-items-center border rounded text-danger fw-bold"
+                                style="cursor: pointer;"><span>Visit Website</span></div>
+
+                            <div class="my-2 d-flex align-items-center justify-content-between">
+                                <div class="d-flex">
+                                    <img src="./Rectangle 3 (4).png" class="mx-1" alt="" width="37px" height="37px">
+                                    <div class="d-flex justify-content-center flex-column">
+                                        <span class="fw-bold mx-1" style="font-size: 13px;">Ronal Jones</span>
+                                        <span class="mx-1" style="color: #525252;font-size: 14px;">800
+                                            views</span>
+                                    </div>
+                                </div>
+                                <i class="fa fa-share-alt  d-flex align-items-center justify-content-center rounded"
+                                    style="color: #2D2D2D;background-color: #EDEEF0; height: 40px;width: 70px;"><span
+                                        class="mx-2">Share</span></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card my-1" style="width: 100%;">
+                        <div class="card-body">
+                            <p style="font-size: 14px; font-weight: 500;">💼️ Job</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="fw-bold" style="font-size: 16px;font-weight: 600;">Software Developer</div>
+                                <div class="fw-bold" style="font-size: 16px;"><i class="fa fa-ellipsis-h"></i>
+                                </div>
+                            </div>
+                            <div class="my-2 d-flex">
+
+                                <div><i class="fa fa-briefcase mx-2" style="font-size: 12px;font-weight: 400;"
+                                        aria-hidden="true"></i>nnovaccer Analytic...</div>
+                                <div><i class="fa fa-map-marker mx-2" style="font-size: 12px;font-weight: 400;"
+                                        aria-hidden="true"></i>Noida,
+                                    India</div>
+                            </div>
+                            <div class="p-1 my-4 d-flex justify-content-center align-items-center border rounded fw-bold"
+                                style="cursor: pointer;color: #02B875;"><span>Apply on Timesjobs</span></div>
+
+                            <div class="my-2 d-flex align-items-center justify-content-between">
+                                <div class="d-flex">
+                                    <img src="./Rectangle 3 (5).png" class="mx-1" alt="" width="37px" height="37px">
+                                    <div class="d-flex justify-content-center flex-column">
+                                        <span class="fw-bold mx-1" style="font-size: 13px;">Joseph Gray</span>
+                                        <span class="mx-1" style="color: #525252;font-size: 14px;">1.7k
+                                            views</span>
+                                    </div>
+                                </div>
+                                <i class="fa fa-share-alt  d-flex align-items-center justify-content-center rounded"
+                                    style="color: #2D2D2D;background-color: #EDEEF0; height: 40px;width: 70px;"><span
+                                        class="mx-2">Share</span></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-bottom rounded-top" tabindex="-1" id="offcanvasBottom"
+            aria-labelledby="offcanvasBottomLabel" style="height: 525px;">
+
+            <div class="p-3" id="sfo2">
+                <div class="m-3 d-flex justify-content-between align-items-center">
+                    <h2>Create Account</h2>
+                    <i class="fa fa-times-circle" style="font-size: 20px;" data-bs-dismiss="offcanvas"
+                        style="cursor: pointer;"></i>
+                </div>
+                <form action="#" class="m-3">
+                    <div class="d-flex" style="background-color: #F7F8FA;border:  1px solid #D9D9DB;">
+                        <input class="p-2 rounded-start"
+                            style="border: 0;outline: 0;border-right: 1px solid #D9D9DB; background-color: #F7F8FA;width: 40vw;"
+                            placeholder="First Name" type="text"></input>
+                        <input class="p-2 rounded-end"
+                            style="border: 0;outline: 0;background-color: #F7F8FA;width: 40vw;" placeholder="Last Name"
+                            type="text"></input>
+                    </div>
+                    <div class="d-flex">
+                        <input type="email" class="p-2" placeholder="Email"
+                            style="border: 0;outline: 0;border: 1px solid #D9D9DB;background-color: #F7F8FA;width: 100vw;">
+                    </div>
+                    <div class="d-flex align-items-center"
+                        style="background-color: #F7F8FA;border-right: 1px solid #D9D9DB;">
+                        <input type="password" class="p-2" placeholder="Password"
+                            style="border: 0;outline: 0;border-top: 1px solid #D9D9DB; background-color: #F7F8FA;border-bottom: 1px solid #D9D9DB;border-left: 1px solid #D9D9DB;width: 90vw;">
+                        <i class="fa fa-eye" aria-hidden="true"
+                            style="border: 0;outline: 0;background-color: #F7F8FA;color: gray;width: 10vw;"></i>
+                    </div>
+                    <div class="d-flex">
+                        <input type="password" class="p-2 rounded-bottom" placeholder="Confirm Password"
+                            style="border: 0;outline: 0;border: 1px solid #D9D9DB;background-color: #F7F8FA;width: 100vw;">
+                    </div>
+                    <br>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button class="btn btn-primary rounded-pill" type="submit" style="width: 50%;">Create
+                            Account</button>
+                        <span id="sgn2" style="cursor: pointer;"><u>or, Sign In</u></span>
+                    </div>
+                    <div>
+                        <div class="m-2 p-1 d-flex justify-content-center align-items-center border border-secondary rounded-2"
+                            style="cursor: pointer;">
+                            <div class="">
+                                <img src="./f_logo_RGB-Blue_1024.png" alt="" width="20px" height="20px">
+                            </div>
+                            <span class="m-2">Sign up with Facebook</span>
+                        </div>
+
+                        <div class="m-2 p-1 d-flex justify-content-center align-items-center border border-secondary rounded-2"
+                            style="cursor: pointer;">
+                            <div class="">
+                                <img src="./search.png" alt="" width="20px" height="20px">
+                            </div>
+                            <span class="m-2">Sign up with Google</span>
+                        </div>
+
+                        <div class="m-2 p-1 d-flex justify-content-center align-items-center text-center"
+                            style="font-size: 15px;">
+                            By signing up, you agree to our Terms & conditions, Privacy policy
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="p-3" id="lfo2" style="display: none;">
+                <div class="m-3 d-flex justify-content-between align-items-center">
+                    <h2>Welcome back!</h2>
+                    <i class="fa fa-times-circle" style="font-size: 20px;" data-bs-dismiss="offcanvas"
+                        style="cursor: pointer;"></i>
+                </div>
+                <form action="#" class="m-3">
+                    <div class="d-flex">
+                        <input type="email" class="p-2" placeholder="Email"
+                            style="border: 0;outline: 0;border: 1px solid #D9D9DB;background-color: #F7F8FA;width: 100vw;">
+                    </div>
+                    <div class="d-flex align-items-center"
+                        style="background-color: #F7F8FA;border-right: 1px solid #D9D9DB;">
+                        <input type="password" class="p-2" placeholder="Password"
+                            style="border: 0;outline: 0;border-top: 1px solid #D9D9DB; background-color: #F7F8FA;border-bottom: 1px solid #D9D9DB;border-left: 1px solid #D9D9DB;width: 90vw;">
+                        <i class="fa fa-eye" aria-hidden="true"
+                            style="border: 0;outline: 0;background-color: #F7F8FA;color: gray;width: 10vw;"></i>
+                    </div>
+                    <br>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button class="btn btn-primary rounded-pill" type="submit" style="width: 50%;">Sign In</button>
+                        <span id="cr2" style="cursor: pointer;"><u>or, Create Account</u></span>
+                    </div>
+                    <div>
+                        <div class="m-2 p-1 d-flex justify-content-center align-items-center border border-secondary rounded-2"
+                            style="cursor: pointer;">
+                            <div class="">
+                                <img src="./f_logo_RGB-Blue_1024.png" alt="" width="20px" height="20px">
+                            </div>
+                            <span class="m-2">Sign in with Facebook</span>
+                        </div>
+
+                        <div class="m-2 p-1 d-flex justify-content-center align-items-center border border-secondary rounded-2"
+                            style="cursor: pointer;">
+                            <div class="">
+                                <img src="./search.png" alt="" width="20px" height="20px">
+                            </div>
+                            <span class="m-2">Sign in with Google</span>
+                        </div>
+
+                        <div class="m-2 p-1 d-flex justify-content-center align-items-center text-center"
+                            style="font-size: 15px;">
+                            Forgot Password?
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <script>
+        document.getElementById('supbtn').onclick = () => {
+            document.getElementById('log1').style.display = "none"
+            document.getElementById('sgu1').style.display = "block"
+        }
+
+        document.getElementById('lgbtn').onclick = () => {
+            document.getElementById('sgu1').style.display = "none"
+            document.getElementById('log1').style.display = "block"
+        }
+
+        document.getElementById('cr2').onclick = () => {
+            document.getElementById('lfo2').style.display = "none"
+            document.getElementById('sfo2').style.display = "block"
+        }
+
+        document.getElementById('sgn2').onclick = () => {
+            document.getElementById('sfo2').style.display = "none"
+            document.getElementById('lfo2').style.display = "block"
+        }
+
+
+        document.getElementById('join').onclick = () => {
+            document.getElementById('join').style.display = "none"
+            document.getElementById('leave').style.display = "block"
+        }
+        document.getElementById('leave').onclick = () => {
+            document.getElementById('leave').style.display = "none"
+            document.getElementById('join').style.display = "block"
+        }
+
+
+
+        setInterval(() => {
+            if (window.outerWidth < 769) {
+                document.getElementById('desktop-screen').style.display = "none"
+                document.getElementById('mobile-screen').style.display = "block"
+            } else {
+                document.getElementById('mobile-screen').style.display = "none"
+                document.getElementById('desktop-screen').style.display = "block"
+            }
+        }, 100)
+
+        function setfollow(id) {
+            if (document.getElementById(id).innerHTML == "Follow") {
+                document.getElementById(id).style.background = "black"
+                document.getElementById(id).style.color = "white"
+                document.getElementById(id).innerHTML = "Followed"
+            }
+            else {
+                document.getElementById(id).style.background = "#EDEEF0"
+                document.getElementById(id).style.color = "black"
+                document.getElementById(id).innerHTML = "Follow"
+            }
+        }
+
+        document.getElementById('a1').onclick = () => {
+            setfollow("a1")
+        }
+        document.getElementById('a2').onclick = () => {
+            setfollow("a2")
+        }
+        document.getElementById('a3').onclick = () => {
+            setfollow("a3")
+        }
+        document.getElementById('a4').onclick = () => {
+            setfollow("a4")
+        }
+
+        document.getElementById('j2').onclick = () => {
+            document.getElementById('j2').style.display = "none"
+            document.getElementById('plo').style.display = "none"
+            document.getElementById('notl').style.display = "none"
+            document.getElementById('l2').style.display = "block"
+            document.getElementById('yesl').style.display = "flex"
+            document.getElementById('fgrp').style.display = "block"
+            document.getElementById('enlo').style.display = "block"
+
+
+        }
+        document.getElementById('l2').onclick = () => {
+            document.getElementById('l2').style.display = "none"
+            document.getElementById('fgrp').style.display = "none"
+            document.getElementById('yesl').style.display = "none"
+            document.getElementById('enlo').style.display = "none"
+            document.getElementById('j2').style.display = "block"
+            document.getElementById('notl').style.display = "block"
+            document.getElementById('plo').style.display = "block"
+        }
+
+
+    </script>
+
+</body>
+
+</html>
