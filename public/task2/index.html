@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="/task2/jq.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+    <script src="/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="/OwlCarousel2-2.3.4/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+    <title>ATG.WORLD</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        *::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="desktop-screen" style="display: none;">
+
+        <div style="margin-left: 40vw;width: 60vw;height: 100vh;">
+            <div id="item1" style="width: 60vw;height: 100vh;background: #dad5d5;overflow: hidden;"
+                class="justify-content-center align-items-center">
+                <img src="/drive-download-20210904T045413Z-001/nexgtv-entertainment-mobile-app-development.png" alt=""
+                    style="width: 28vw;
+                    height: 85vh;" id="i1">
+                <img src="/drive-download-20210904T045413Z-001/nexgtv-mobile-app-ui-design.png" alt="" style="width: 28vw;
+                    height: 85vh;" id="i2">
+            </div>
+            <div id="item2" style="width: 60vw;height: 100vh;background: #140e71;overflow: hidden;padding-left: 12vw;"
+                class="">
+                <div class="d-flex align-items-end justify-content-center" style="height: 100vh;">
+                    <img src="/drive-download-20210904T045413Z-001/veme-blockchain-app-developed.png" alt="" style="width: 20vw;height: 55vh;
+                    " id="i3">
+                </div>
+                <img src="/drive-download-20210904T045413Z-001/veme-app-ui-design.png" alt="" style="width: 20vw;height: 55vh;
+                    " id="i4">
+            </div>
+            <div id="item3" style="width: 60vw;height: 100vh;background: #170869;overflow: hidden;padding-left: 12vw;"
+                class="">
+                <div class="d-flex align-items-end justify-content-center" style="height: 100vh;">
+                    <img src="/drive-download-20210904T045413Z-001/nasa-fitness-tracking-mobile-app.png" alt="" style="width: 20vw;height: 65vh;
+                    " id="i5">
+                </div>
+                <img src="/drive-download-20210904T045413Z-001/measure-total-body-weight-through-fitness-app.png" alt=""
+                    style="width: 18vw;height: 60vh;position: relative;top: -100px;
+                    " id="i6">
+            </div>
+            <div id="item4"
+                style="width: 60vw;height: 100vh;background: #1a1a1b;overflow: hidden;padding-left: 5px; z-index: 0;"
+                class="">
+                <div style="width: 20vw;height: 100vh;">
+                    <img src="/drive-download-20210904T045413Z-001/pizza_box.png"
+                        style="width: 20vw;height: 35vh;position: relative;top: -20px;left: -5px;" alt="" id="i7">
+                    <img src="/drive-download-20210904T045413Z-001/domi-img1.png"
+                        style="width: 20vw;height: 50vh;position: relative;left: 50px;bottom: -120px;" alt="" id="i8">
+                </div>
+                <div style="width: 20vw;height: 100vh;" class="d-flex justify-content-center align-items-center">
+                    <img src="/drive-download-20210904T045413Z-001/ux-strategy-for-mobile-app-devlopment.png" style="width: 20vw;
+                            height: 60vh;
+                            margin-left: 50px;" alt="" id="i9">
+                </div>
+                <div style="width: 20vw;height: 100vh;"
+                    class="d-flex flex-column justify-content-between align-items-end">
+                    <img src="/drive-download-20210904T045413Z-001/dominos-bread.png" alt="" style="position: relative;
+                    right: 0px;
+                    top: -100px;" id="i10">
+                    <img src="/drive-download-20210904T045413Z-001/dominos-bread1.png" alt="" style="position: relative;
+                    right: -39px;
+                    top: 100px;" id="i11">
+                </div>
+            </div>
+            <div id="item5"
+                style="width: 60vw;height: 100vh;background: #00b2ff;overflow: hidden;padding-left: 5px; z-index: 0;"
+                class="">
+                <div style="width: 20vw;height: 100vh;margin-left: 80px;">
+                    <img src="/drive-download-20210904T045413Z-001/karavan-social-networking-app-screen.png"
+                        style="width: 15vw;height: 40vh;position: relative;top: -100px;left: -5px;" alt="" id="i12">
+                    <img src="/drive-download-20210904T045413Z-001/karavan_2.png"
+                        style="width: 15vw;height: 50vh;position: relative;bottom: -120px;" alt="" id="i13">
+                </div>
+                <div style="width: 20vw;height: 100vh;margin-left: 10px;"
+                    class="d-flex justify-content-between align-items-center flex-column">
+                    <img src="/drive-download-20210904T045413Z-001/social-networking-app-case-study.png" style="width: 15vw;
+                            height: 60vh;position: relative;top: -70px;
+                            " alt="" id="i14">
+                    <img src="/drive-download-20210904T045413Z-001/karavan-social-networking-app-screen-2.png" alt=""
+                        style="position: relative;width: 15vw;bottom: -60px;" id="i15">
+                </div>
+                <div style="width: 20vw;height: 100vh;"
+                    class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="/drive-download-20210904T045413Z-001/developers-for-social-media-app.png" alt="" id="i16">
+                </div>
+            </div>
+            <div id="item6"
+                style="width: 60vw;height: 100vh;background:url(/drive-download-20210904T045413Z-001/interior.jpg);overflow: hidden;padding-left: 5px; z-index: 0;"
+                class="justify-content-center align-items-center">
+                <img src="/drive-download-20210904T045413Z-001/erp-app-development-service.png" alt="" style="width: 60vw;
+               position: relative;left: -10px;
+               height: 100vh;" id="i17">
+            </div>
+            <div id="item7" style="width: 60vw;height: 100vh;background: #26da87;overflow: hidden;z-index: 0;"
+                class="justify-content-center align-items-end">
+                <img src="/drive-download-20210904T045413Z-001/melltoo-img2.png" alt="" style="width: 23vw;
+               position: relative;left: 50px;bottom: -60px;z-index: 1;
+               height: 70vh;" id="i18">
+                <img src="/drive-download-20210904T045413Z-001/melltoo-img1.png" alt="" style="width: 18vw;
+               position: relative;left: -50px;z-index: 0;bottom: -20px;
+               height: 70vh;" id="i19">
+            </div>
+        </div>
+        <div class="d-flex" style="position: fixed;top: 0;left: 0;">
+            <div style="width: 40vw;height: 100vh;background-color: #9d0fdf;z-index: 1;" id="leftbgcol">
+                <div style="padding: 10px;background-color: #9d0fdf;position: relative;top: 100px;height: 300px;"
+                    class="d-flex justify-content-center align-items-end flex-column mx-3" id="leftbgcol1">
+                    <h1 class="text-light abcclass" style="font-size: 4em;" id="maintext">25M+ Downloads</h1>
+                    <p class="text-light abcclass" style="text-align: end;font-size: 25px;" id="mainbtm">on appstore &
+                        google
+                        playstore</p>
+                </div>
+
+                <div class="p-3 mx-3" style="z-index: 1;position: relative;top: 50px;">
+                    <img src="/drive-download-20210904T045413Z-001/world-communication-awards-for-best-digital-experience.png"
+                        alt="" style="width: 20vw;height: 100px;" id="bestimg">
+                    <h1 class="text-light my-3 abcclass" style="font-size: 3.5em;" id="abctext">ABC 123</h1>
+                    <div class="abcclass">
+                        <span class="text-light abcclass" id="bestext">We are the best web development</span>
+                        <br>
+                        <span class="text-light abcclass" id="companytext">company in the world</span>
+                    </div>
+
+                    <div class="my-4 text-light d-flex justify-content-between align-items-center abcclass">
+                        <div style="font-size: 22px;font-weight: 500;" class="abcclass" id="casetext">View Case Study
+                            &NonBreakingSpace;<i class="fa fa-arrow-right" style="font-size: 20px;" id="caseicon"></i>
+                        </div>
+                        <div style="font-family: 'Courier New', Courier, monospace;font-size: 22px;" id="skiptext">SKIP
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="width: 300px;height: 300px;border-radius: 50%;background-color: #9d0fdf;position: relative;top: 100px;left: -130px;"
+                id="leftbgcol2" class="d-flex justify-content-start flex-column align-items-end">
+                <span class="mx-2 text-light" onclick="itemfunc1()" id="o1"
+                    style="padding-right: 98px;padding-top: 3px;cursor: pointer;font-weight: bold;"><strong><strong>O</strong></strong></span>
+
+                <span class="mx-2 text-light" onclick="itemfunc2()" id="o2"
+                    style="padding-right: 39px;padding-top: 9px;cursor: pointer;font-weight: bold;"><strong><strong>.</strong></strong></span>
+
+                <span class="mx-2 text-light" onclick="itemfunc3()" id="o3"
+                    style="padding-right: 8px;padding-top: 28px;cursor: pointer;font-weight: bold;"><strong><strong>.</strong></strong></span>
+
+                <span class="mx-2 text-light" onclick="itemfunc4()" id="o4"
+                    style="padding-right: 3px;padding-top: 30px;cursor: pointer;font-weight: bold;"><strong><strong>.</strong></strong></span>
+
+                <span class="mx-2 text-light" onclick="itemfunc5()" id="o5"
+                    style="padding-right: 17px;padding-top: 27px;cursor: pointer;font-weight: bold;"><strong><strong>.</strong></strong></span>
+
+                <span class="mx-2 text-light" onclick="itemfunc6()" id="o6"
+                    style="padding-right: 49px;padding-top: 20px;cursor: pointer;font-weight: bold;"><strong><strong>.</strong></strong></span>
+
+                <span class="mx-2 text-light" onclick="itemfunc7()" id="o7"
+                    style="padding-right: 96px;padding-top: 3px;cursor: pointer;font-weight: bold;"><strong><strong>.</strong></strong></span>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="owl-carousel owl-theme" id="mobile-screen" style="display: none;">
+        <div class="item d-flex flex-column" style="width: 100vw;height: 100vh;overflow: hidden;">
+            <div style="width: 100vw;height: 50vh;background-color: #dad5d5;padding-top: 20px;" class="d-flex">
+                <img src="/drive-download-20210904T045413Z-001/nexgtv-entertainment-mobile-app-development.png" alt=""
+                    style="width: 69vw;
+                    height: 76vh;
+                    position: relative;
+                    left: -35px;
+                    top: -25px;">
+                <img src="/drive-download-20210904T045413Z-001/nexgtv-mobile-app-ui-design.png" alt="" style="width: 62vw;
+                    height: 73vh;
+                    position: relative;
+                    left: -83px;
+                    top: -24px;">
+            </div>
+
+            <div style="width: 100vw;height: 50vh;background-color: #9d0fdf;padding-left: 15px;z-index: 1;">
+                <img src="/drive-download-20210904T045413Z-001/world-communication-awards-for-best-digital-experience.png"
+                    alt=""
+                    style="width: 60vw;height:15vh;border: 2px solid #9d0fdf;position: relative;top: -35px;z-index: 1;background-color: white;"
+                    class="shadow-lg rounded">
+                <h1 class="text-light">ABC 123</h1>
+                <span class="text-light" style="font-size: 20px;">This is smaple text for ABC 123.This is smaple text
+                    for ABC 123.</span>
+                <br>
+                <div class="text-light my-3" style="font-size: 22px;font-weight: 500;">View Case Study
+                    &NonBreakingSpace;<i class="fa fa-arrow-right" style="font-size: 20px;"></i></div>
+            </div>
+
+        </div>
+        <div class="item d-flex flex-column" style="width: 100vw;height: 100vh;overflow: hidden;">
+            <div style="width: 100vw;height: 50vh;background-color: #1d0fe9" class="d-flex">
+                <img src="/drive-download-20210904T045413Z-001/veme-blockchain-app-developed.png" alt=""
+                    style="width: 60vw;height: 50vh;margin-top: 70px;z-index: 0;">
+                <img src="/drive-download-20210904T045413Z-001/veme-app-ui-design.png" alt=""
+                    style="width: 90vw;height: 40vh;margin-bottom: 150px;">
+            </div>
+
+            <div
+                style="width: 100vw;height: 50vh;background: linear-gradient(180deg, #b808e4 0%, #e40890 100%);padding-left: 15px;z-index: 1;">
+
+                <h1 class="text-light" style="margin-top: 100px;">ABC 123</h1>
+                <span class="text-light" style="font-size: 20px;">This is smaple text for ABC 1.</span>
+                <br>
+                <div class="text-light my-3" style="font-size: 22px;font-weight: 500;">Case Study
+                    &NonBreakingSpace;-&NonBreakingSpace;<button class="btn rounded-pill text-light p-3"
+                        style="background: #e4084a;">Coming Soon</button></div>
+            </div>
+
+        </div>
+
+        <div class="item d-flex flex-column" style="width: 100vw;height: 100vh;overflow: hidden;">
+            <div style="width: 100vw;height: 50vh;background-color: #170869" class="d-flex">
+                <img src="/drive-download-20210904T045413Z-001/nasa-fitness-tracking-mobile-app.png" alt=""
+                    style="width: 60vw;height: 50vh;margin-top: 70px;z-index: 0;">
+                <img src="/drive-download-20210904T045413Z-001/measure-total-body-weight-through-fitness-app.png" alt=""
+                    style="width: 90vw;height: 50vh;margin-bottom: 150px;position: relative;top: -100px;">
+            </div>
+
+            <div
+                style="width: 100vw;height: 50vh;background: linear-gradient(180deg, #5508e4 0%, #170869 100%);padding-left: 15px;z-index: 1;">
+
+                <h1 class="text-light" style="margin-top: 100px;">ABC 2</h1>
+                <span class="text-light" style="font-size: 20px;">This is smaple text for ABC 2.</span>
+                <br>
+                <div class="text-light my-3" style="font-size: 22px;font-weight: 500;">Case Study
+                    &NonBreakingSpace;-&NonBreakingSpace;<button class="btn rounded-pill p-3"
+                        style="background: white;color: #170869;font-weight: 500;">Coming Soon</button></div>
+            </div>
+
+        </div>
+
+        <div class="item d-flex flex-column" style="width: 100vw;height: 100vh;overflow: hidden;">
+            <div style="width: 100vw;height: 50vh;background-color: #1a1a1b" class="d-flex">
+                <div style="width: 40vw;height: 45vh;">
+                    <img src="/drive-download-20210904T045413Z-001/pizza_box.png"
+                        style="width: 35vw;height: 30vh;position: relative;top: -70px;" alt="">
+                    <img src="/drive-download-20210904T045413Z-001/domi-img1.png"
+                        style="width: 40vw;height: 50vh;position: relative;top: -89px;left: 19px;" alt="">
+                </div>
+                <div style="width: 40vw;height: 45vh;">
+                    <img src="/drive-download-20210904T045413Z-001/ux-strategy-for-mobile-app-devlopment.png" style="width: 40vw;
+                        height: 46vh;
+                        position: relative;
+                        top: -30px;
+                        margin-left: 10px;" alt="">
+                    <img src="/drive-download-20210904T045413Z-001/on-demand-app-development-company.png" style="width: 40vw;
+                        height: 20vh;
+                        position: relative;
+                        top: -44px;
+                        margin-left: 10px;" alt="">
+                </div>
+                <div style="width: 20vw;" class="d-flex flex-column justify-content-between align-items-end">
+                    <img src="/drive-download-20210904T045413Z-001/dominos-bread1.png" alt="" style="position: relative;
+                right: -28px;
+                top: -30px;">
+                    <img src="/drive-download-20210904T045413Z-001/dominos-masala.png" alt="" style="position: relative;
+                right: -17px;">
+                    <img src="/drive-download-20210904T045413Z-001/dominos-bread1.png" alt="" style="position: relative;
+                right: -39px;
+                top: 6px;">
+                </div>
+            </div>
+
+            <div
+                style="width: 100vw;height: 50vh;background: linear-gradient(180deg, #0f182d 0%, #040214 100%);padding-left: 15px;z-index: 1;">
+
+                <h1 class="text-light" style="margin-top: 100px;">ABC 3</h1>
+                <span class="text-light" style="font-size: 20px;">This is smaple text for ABC 3.</span>
+                <br>
+                <div class="text-light my-3" style="font-size: 22px;font-weight: 500;">View Case Study
+                    &NonBreakingSpace;<i class="fa fa-arrow-right" style="font-size: 20px;"></i></div>
+            </div>
+
+        </div>
+
+        <div class="item d-flex flex-column" style="width: 100vw;height: 100vh;overflow: hidden;">
+            <div style="width: 100vw;height: 50vh;background-color: #00b2ff" class="d-flex">
+                <div style="width: 40vw;height: 45vh;">
+                    <img src="/drive-download-20210904T045413Z-001/karavan-social-networking-app-screen.png" style="width: 40vw;
+                        height: 30vh;
+                        position: relative;
+                        top: -69px;
+                        left: 9px;" alt="">
+                    <img src="/drive-download-20210904T045413Z-001/karavan_2.png" style="width: 40vw;
+                        height: 50vh;
+                        position: relative;
+                        top: -75px;
+                        left: 9px;" alt="">
+                </div>
+                <div style="width: 40vw;height: 45vh;">
+                    <img src="/drive-download-20210904T045413Z-001/social-networking-app-case-study.png" style="width: 40vw;
+                    height: 40vh;
+                    position: relative;
+                    top: -9px;" alt="">
+                    <img src="/drive-download-20210904T045413Z-001/karavan-social-networking-app-screen-2.png" style="width: 40vw;
+                    height: 44vh;
+                    position: relative;
+                    top: -14px;" alt="">
+                </div>
+                <div style="width: 20vw;" class="d-flex flex-column justify-content-center align-items-end">
+                    <img src="/drive-download-20210904T045413Z-001/developers-for-social-media-app.png" alt="" style="position: relative;
+                    right: -52px;
+                    width: 34vw;
+                    height: 50vh;
+                    bottom: -47px;">
+
+                </div>
+            </div>
+
+            <div
+                style="width: 100vw;height: 50vh;background: linear-gradient(180deg, blue 0%, #00b2ff 100%);padding-left: 15px;z-index: 1;">
+
+                <h1 class="text-light" style="margin-top: 100px;">ABC 4</h1>
+                <span class="text-light" style="font-size: 20px;">This is smaple text for ABC 4.</span>
+                <br>
+                <div class="text-light my-3" style="font-size: 22px;font-weight: 500;">View Case Study
+                    &NonBreakingSpace;<i class="fa fa-arrow-right" style="font-size: 20px;"></i></div>
+            </div>
+
+        </div>
+        <div class="item d-flex flex-column" style="width: 100vw;height: 100vh;overflow: hidden;">
+            <div style="width: 100vw;height: 50vh;background:url(/drive-download-20210904T045413Z-001/interior.jpg)"
+                class="d-flex">
+                <img src="/drive-download-20210904T045413Z-001/erp-app-development-service.png" alt="" style="width: 118vw;
+               position: relative;
+               left: -44px;
+               height: 58vh;">
+            </div>
+
+            <div style="width: 100vw;height: 50vh;background: linear-gradient(
+                    180deg
+                    , #121241 0%, #0f0d79 100%);padding-left: 15px;z-index: 1;">
+
+                <h1 class="text-light" style="margin-top: 100px;">ABC 4</h1>
+                <span class="text-light" style="font-size: 20px;">This is smaple text for ABC 4.</span>
+                <br>
+                <div class="text-light my-3" style="font-size: 22px;font-weight: 500;">View Case Study
+                    &NonBreakingSpace;<i class="fa fa-arrow-right" style="font-size: 20px;"></i></div>
+            </div>
+
+        </div>
+
+
+        <div class="item d-flex flex-column" style="width: 100vw;height: 100vh;overflow: hidden;">
+            <div style="width: 100vw;height: 50vh;background-color: #1d0fe9" class="d-flex ">
+                <img src="/drive-download-20210904T045413Z-001/melltoo-img2.png" alt="" style="width: 82vw;
+                    height: 55vh;
+                    margin-top: 41px;
+                    margin-left: 20px;z-index: 1;">
+                <img src="/drive-download-20210904T045413Z-001/melltoo-img1.png" alt="" style="width: 54vw;
+                    height: 50vh;
+                    margin-top: 76px;
+                    position: relative;
+                    left: -79px;">
+            </div>
+
+            <div style="width: 100vw;height: 50vh;background-color: #1f885d;padding-left: 15px;z-index: 1;">
+                <img src="/drive-download-20210904T045413Z-001/mobile-app-of-the-year-by-entrepreneur.png" alt=""
+                    style="width: 60vw;height:15vh;position: relative;top: -35px;z-index: 1;background-color: white;"
+                    class="shadow-lg rounded">
+                <h1 class="text-light">XYZ 123</h1>
+                <span class="text-light" style="font-size: 20px;">This is smaple text for XYZ 123.</span>
+                <br>
+                <div class="text-light my-3" style="font-size: 22px;font-weight: 500;">Case Study
+                    &NonBreakingSpace;-&NonBreakingSpace;<button class="btn rounded-pill p-3"
+                        style="background: white;color: #1f885d;">Coming Soon</button></div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <script>
+
+        setInterval(() => {
+            if (window.outerWidth < 769) {
+                document.getElementById('desktop-screen').style.display = "none"
+                document.getElementById('mobile-screen').style.display = "block"
+            } else {
+                document.getElementById('mobile-screen').style.display = "none"
+                document.getElementById('desktop-screen').style.display = "flex"
+            }
+        }, 100)
+
+
+
+        setTimeout(() => {
+            itemfunc1()
+        }, 0)
+        setTimeout(() => {
+            itemfunc2()
+        }, 3000)
+        setTimeout(() => {
+            itemfunc3()
+        }, 6000)
+        setTimeout(() => {
+            itemfunc4()
+        }, 9000)
+        setTimeout(() => {
+            itemfunc5()
+        }, 12000)
+        setTimeout(() => {
+            itemfunc6()
+        }, 15000)
+        setTimeout(() => {
+            itemfunc7()
+        }, 18000)
+
+
+
+
+        function itemfunc1() {
+            document.getElementById('item2').style.display = "none"
+            document.getElementById('item3').style.display = "none"
+            document.getElementById('item4').style.display = "none"
+            document.getElementById('item5').style.display = "none"
+            document.getElementById('item6').style.display = "none"
+            document.getElementById('item7').style.display = "none"
+            document.getElementById('item1').style.display = "flex"
+            document.getElementById('bestimg').src = "/drive-download-20210904T045413Z-001/world-communication-awards-for-best-digital-experience.png"
+            document.getElementById('bestimg').style.display = "block"
+
+            document.getElementById('o1').innerHTML = "O"
+            document.getElementById('o2').innerHTML = "."
+            document.getElementById('o3').innerHTML = "."
+            document.getElementById('o4').innerHTML = "."
+            document.getElementById('o5').innerHTML = "."
+            document.getElementById('o6').innerHTML = "."
+            document.getElementById('o7').innerHTML = "."
+
+            gsap.to("#i1", {
+                scrollTrigger: "#i1",
+                duration: 0.5, y: 100
+            });
+            gsap.to("#i2", {
+                scrollTrigger: "#i2",
+                duration: 0.5, y: -100
+            });
+            gsap.to(".abcclass", {
+                scrollTrigger: ".abcclass",
+                duration: 0.5, y: -100
+            });
+            setTimeout(() => {
+                document.getElementById("leftbgcol").style.backgroundColor = "#9d0fdf"
+                document.getElementById("leftbgcol1").style.backgroundColor = "#9d0fdf"
+                document.getElementById("leftbgcol2").style.backgroundColor = "#9d0fdf"
+                gsap.to("#i1", {
+                    scrollTrigger: "#i1",
+                    duration: 0.5, y: -0
+                });
+                gsap.to("#i2", {
+                    scrollTrigger: "#i2",
+                    duration: 0.5, y: 0
+                });
+                gsap.to(".abcclass", {
+                    scrollTrigger: ".abcclass",
+                    duration: 0.5, y: 0
+                });
+            }, 300)
+            document.getElementById('maintext').innerHTML = "25M+ Downloads"
+            document.getElementById('mainbtm').innerHTML = "on appstore & google playstore"
+            document.getElementById('abctext').innerHTML = "ABC 123"
+            document.getElementById('bestext').innerHTML = "We are the best web development"
+            document.getElementById('companytext').innerHTML = "company in the world"
+            document.getElementById('casetext').innerHTML = "View Case Study"
+            document.getElementById('skiptext').innerHTML = "SKIP"
+
+
+
+        }
+
+        function itemfunc2() {
+            document.getElementById('item1').style.display = "none"
+            document.getElementById('bestimg').style.display = "none"
+            document.getElementById('item3').style.display = "none"
+            document.getElementById('item4').style.display = "none"
+            document.getElementById('item5').style.display = "none"
+            document.getElementById('item6').style.display = "none"
+            document.getElementById('item7').style.display = "none"
+            document.getElementById('item2').style.display = "flex"
+
+            document.getElementById('o1').innerHTML = "."
+            document.getElementById('o2').innerHTML = "O"
+            document.getElementById('o3').innerHTML = "."
+            document.getElementById('o4').innerHTML = "."
+            document.getElementById('o5').innerHTML = "."
+            document.getElementById('o6').innerHTML = "."
+            document.getElementById('o7').innerHTML = "."
+
+
+            gsap.to("#i3", {
+                scrollTrigger: "#i3",
+                duration: 0.5, y: 100
+            });
+            gsap.to("#i4", {
+                scrollTrigger: "#i4",
+                duration: 0.5, y: -100
+            });
+            gsap.to(".abcclass", {
+                scrollTrigger: ".abcclass",
+                duration: 0.5, y: -100
+            });
+            setTimeout(() => {
+                document.getElementById("leftbgcol").style.background = "#5508e4"
+                document.getElementById("leftbgcol1").style.background = "#5508e4"
+                document.getElementById("leftbgcol2").style.background = "#5508e4"
+                gsap.to("#i3", {
+                    scrollTrigger: "#i3",
+                    duration: 0.5, y: 0
+                });
+                gsap.to("#i4", {
+                    scrollTrigger: "#i4",
+                    duration: 0.5, y: -0
+                });
+                gsap.to(".abcclass", {
+                    scrollTrigger: ".abcclass",
+                    duration: 0.5, y: 0
+                });
+            }, 300)
+            document.getElementById('maintext').innerHTML = "The Next Big"
+            document.getElementById('mainbtm').innerHTML = "Blockchain Revolution"
+            document.getElementById('abctext').innerHTML = "ABC 234"
+            document.getElementById('bestext').innerHTML = "We are the best web development"
+            document.getElementById('companytext').innerHTML = "company in the world"
+            document.getElementById('casetext').innerHTML = "Coming Soon"
+            document.getElementById('skiptext').innerHTML = "SKIP"
+
+
+        }
+        function itemfunc3() {
+            document.getElementById('item1').style.display = "none"
+            document.getElementById('bestimg').style.display = "none"
+            document.getElementById('item2').style.display = "none"
+            document.getElementById('item4').style.display = "none"
+            document.getElementById('item5').style.display = "none"
+            document.getElementById('item6').style.display = "none"
+            document.getElementById('item7').style.display = "none"
+            document.getElementById('item3').style.display = "flex"
+
+            document.getElementById('o1').innerHTML = "."
+            document.getElementById('o2').innerHTML = "."
+            document.getElementById('o3').innerHTML = "O"
+            document.getElementById('o4').innerHTML = "."
+            document.getElementById('o5').innerHTML = "."
+            document.getElementById('o6').innerHTML = "."
+            document.getElementById('o7').innerHTML = "."
+
+            gsap.to("#i5", {
+                scrollTrigger: "#i5",
+                duration: 0.5, y: 100
+            });
+            gsap.to("#i6", {
+                scrollTrigger: "#i6",
+                duration: 0.5, y: -100
+            });
+            gsap.to(".abcclass", {
+                scrollTrigger: ".abcclass",
+                duration: 0.5, y: -100
+            });
+            setTimeout(() => {
+                document.getElementById("leftbgcol").style.background = "#5508e4"
+                document.getElementById("leftbgcol1").style.background = "#5508e4"
+                document.getElementById("leftbgcol2").style.background = "#5508e4"
+                gsap.to("#i5", {
+                    scrollTrigger: "#i5",
+                    duration: 0.5, y: 0
+                });
+                gsap.to("#i6", {
+                    scrollTrigger: "#i6",
+                    duration: 0.5, y: -0
+                });
+                gsap.to(".abcclass", {
+                    scrollTrigger: ".abcclass",
+                    duration: 0.5, y: 0
+                });
+            }, 300)
+            document.getElementById('maintext').innerHTML = "Powered by"
+            document.getElementById('mainbtm').innerHTML = "advance NASA algorithms"
+            document.getElementById('abctext').innerHTML = "ABC 345"
+            document.getElementById('bestext').innerHTML = "We are the best web development"
+            document.getElementById('companytext').innerHTML = "company in the world"
+            document.getElementById('casetext').innerHTML = "Coming Soon"
+            document.getElementById('skiptext').innerHTML = "SKIP"
+
+
+        }
+        function itemfunc4() {
+            document.getElementById('item1').style.display = "none"
+            document.getElementById('bestimg').style.display = "none"
+            document.getElementById('item2').style.display = "none"
+            document.getElementById('item3').style.display = "none"
+            document.getElementById('item5').style.display = "none"
+            document.getElementById('item6').style.display = "none"
+            document.getElementById('item7').style.display = "none"
+            document.getElementById('item4').style.display = "flex"
+
+            document.getElementById('o1').innerHTML = "."
+            document.getElementById('o2').innerHTML = "."
+            document.getElementById('o3').innerHTML = "."
+            document.getElementById('o4').innerHTML = "O"
+            document.getElementById('o5').innerHTML = "."
+            document.getElementById('o6').innerHTML = "."
+            document.getElementById('o7').innerHTML = "."
+
+            gsap.to("#i7", {
+                scrollTrigger: "#i7",
+                duration: 0.5, y: 100
+            });
+            gsap.to("#i8", {
+                scrollTrigger: "#i8",
+                duration: 0.5, y: -100
+            });
+            gsap.to("#i9", {
+                scrollTrigger: "#i9",
+                duration: 0.5, y: 200
+            });
+            gsap.to("#i10", {
+                scrollTrigger: "#i10",
+                duration: 0.5, y: 100
+            });
+            gsap.to("#i11", {
+                scrollTrigger: "#i11",
+                duration: 0.5, y: -100
+            });
+            gsap.to(".abcclass", {
+                scrollTrigger: ".abcclass",
+                duration: 0.5, y: -100
+            });
+            setTimeout(() => {
+                document.getElementById("leftbgcol").style.background = "#0f182d"
+                document.getElementById("leftbgcol1").style.background = "#0f182d"
+                document.getElementById("leftbgcol2").style.background = "#0f182d"
+                gsap.to("#i7", {
+                    scrollTrigger: "#i7",
+                    duration: 0.5, y: 0
+                });
+                gsap.to("#i8", {
+                    scrollTrigger: "#i8",
+                    duration: 0.5, y: 0
+                });
+                gsap.to("#i9", {
+                    scrollTrigger: "#i9",
+                    duration: 0.5, y: 0
+                });
+                gsap.to("#i10", {
+                    scrollTrigger: "#i10",
+                    duration: 0.5, y: 0
+                });
+                gsap.to("#i11", {
+                    scrollTrigger: "#i11",
+                    duration: 0.5, y: 0
+                });
+                gsap.to(".abcclass", {
+                    scrollTrigger: ".abcclass",
+                    duration: 0.5, y: 0
+                });
+            }, 300)
+            document.getElementById('maintext').innerHTML = "Redefining UX"
+            document.getElementById('mainbtm').innerHTML = "Strategy and UI design"
+            document.getElementById('abctext').innerHTML = "ABC 456"
+            document.getElementById('bestext').innerHTML = "We are the best web development"
+            document.getElementById('companytext').innerHTML = "company in the world"
+            document.getElementById('casetext').innerHTML = "View Case Study"
+            document.getElementById('skiptext').innerHTML = "SKIP"
+
+
+        }
+        function itemfunc5() {
+            document.getElementById('item1').style.display = "none"
+            document.getElementById('bestimg').style.display = "none"
+            document.getElementById('item2').style.display = "none"
+            document.getElementById('item3').style.display = "none"
+            document.getElementById('item4').style.display = "none"
+            document.getElementById('item6').style.display = "none"
+            document.getElementById('item7').style.display = "none"
+            document.getElementById('item5').style.display = "flex"
+
+            document.getElementById('o1').innerHTML = "."
+            document.getElementById('o2').innerHTML = "."
+            document.getElementById('o3').innerHTML = "."
+            document.getElementById('o4').innerHTML = "."
+            document.getElementById('o5').innerHTML = "O"
+            document.getElementById('o6').innerHTML = "."
+            document.getElementById('o7').innerHTML = "."
+
+            gsap.to("#i12", {
+                scrollTrigger: "#i12",
+                duration: 0.5, y: 100
+            });
+            gsap.to("#i13", {
+                scrollTrigger: "#i13",
+                duration: 0.5, y: -100
+            });
+            gsap.to("#i14", {
+                scrollTrigger: "#i14",
+                duration: 0.5, y: 100
+            });
+            gsap.to("#i15", {
+                scrollTrigger: "#i15",
+                duration: 0.5, y: 100
+            });
+            gsap.to("#i16", {
+                scrollTrigger: "#i16",
+                duration: 0.5, y: -200
+            });
+            gsap.to(".abcclass", {
+                scrollTrigger: ".abcclass",
+                duration: 0.5, y: -100
+            });
+            setTimeout(() => {
+                document.getElementById("leftbgcol").style.background = "blue"
+                document.getElementById("leftbgcol1").style.background = "blue"
+                document.getElementById("leftbgcol2").style.background = "blue"
+                gsap.to("#i12", {
+                    scrollTrigger: "#i12",
+                    duration: 0.5, y: 0
+                });
+                gsap.to("#i13", {
+                    scrollTrigger: "#i13",
+                    duration: 0.5, y: 0
+                });
+                gsap.to("#i14", {
+                    scrollTrigger: "#i14",
+                    duration: 0.5, y: 0
+                });
+                gsap.to("#i15", {
+                    scrollTrigger: "#i15",
+                    duration: 0.5, y: 0
+                });
+                gsap.to("#i16", {
+                    scrollTrigger: "#i16",
+                    duration: 0.5, y: 0
+                });
+                gsap.to(".abcclass", {
+                    scrollTrigger: ".abcclass",
+                    duration: 0.5, y: 0
+                });
+            }, 300)
+            document.getElementById('maintext').innerHTML = "Text Headline"
+            document.getElementById('mainbtm').innerHTML = "Text Headline Footer headline"
+            document.getElementById('abctext').innerHTML = "ABC 567"
+            document.getElementById('bestext').innerHTML = "We are the best AR development"
+            document.getElementById('companytext').innerHTML = "company in the world"
+            document.getElementById('casetext').innerHTML = "View Case Study"
+            document.getElementById('skiptext').innerHTML = "SKIP"
+
+
+        }
+        function itemfunc6() {
+            document.getElementById('item1').style.display = "none"
+            document.getElementById('bestimg').style.display = "none"
+            document.getElementById('item2').style.display = "none"
+            document.getElementById('item3').style.display = "none"
+            document.getElementById('item4').style.display = "none"
+            document.getElementById('item5').style.display = "none"
+            document.getElementById('item7').style.display = "none"
+            document.getElementById('item6').style.display = "flex"
+
+            document.getElementById('o1').innerHTML = "."
+            document.getElementById('o2').innerHTML = "."
+            document.getElementById('o3').innerHTML = "."
+            document.getElementById('o4').innerHTML = "."
+            document.getElementById('o5').innerHTML = "."
+            document.getElementById('o6').innerHTML = "O"
+            document.getElementById('o7').innerHTML = "."
+
+            gsap.to("#i17", {
+                scrollTrigger: "#i17",
+                duration: 0.5, y: 200
+            });
+            gsap.to(".abcclass", {
+                scrollTrigger: ".abcclass",
+                duration: 0.5, y: -100
+            });
+            setTimeout(() => {
+                document.getElementById("leftbgcol").style.background = "#0f0d79"
+                document.getElementById("leftbgcol1").style.background = "#0f0d79"
+                document.getElementById("leftbgcol2").style.background = "#0f0d79"
+
+                gsap.to("#i17", {
+                    scrollTrigger: "#i17",
+                    duration: 0.5, y: 0
+                });
+                gsap.to(".abcclass", {
+                    scrollTrigger: ".abcclass",
+                    duration: 0.5, y: 0
+                });
+            }, 300)
+            document.getElementById('maintext').innerHTML = "Developing ERP"
+            document.getElementById('mainbtm').innerHTML = "Solution for Text Headline in furniture industry"
+            document.getElementById('abctext').innerHTML = "ABC 678"
+            document.getElementById('bestext').innerHTML = "Best Since 2017 we offer wide range of"
+            document.getElementById('companytext').innerHTML = "web development and app development"
+            document.getElementById('casetext').innerHTML = "View Case Study"
+            document.getElementById('skiptext').innerHTML = "SKIP"
+
+
+        }
+        function itemfunc7() {
+            document.getElementById('item1').style.display = "none"
+            document.getElementById('item2').style.display = "none"
+            document.getElementById('item3').style.display = "none"
+            document.getElementById('item4').style.display = "none"
+            document.getElementById('item5').style.display = "none"
+            document.getElementById('item6').style.display = "none"
+            document.getElementById('item7').style.display = "flex"
+            document.getElementById('bestimg').src = "/drive-download-20210904T045413Z-001/mobile-app-of-the-year-by-entrepreneur.png"
+            document.getElementById('bestimg').style.display = "block"
+
+            document.getElementById('o1').innerHTML = "."
+            document.getElementById('o2').innerHTML = "."
+            document.getElementById('o3').innerHTML = "."
+            document.getElementById('o4').innerHTML = "."
+            document.getElementById('o5').innerHTML = "."
+            document.getElementById('o6').innerHTML = "."
+            document.getElementById('o7').innerHTML = "O"
+
+            gsap.to("#i18", {
+                scrollTrigger: "#i18",
+                duration: 0.5, y: 200
+            });
+            gsap.to("#i19", {
+                scrollTrigger: "#i19",
+                duration: 0.5, y: 200
+            });
+            gsap.to(".abcclass", {
+                scrollTrigger: ".abcclass",
+                duration: 0.5, y: -100
+            });
+            setTimeout(() => {
+                document.getElementById("leftbgcol").style.background = "#1f885d"
+                document.getElementById("leftbgcol1").style.background = "#1f885d"
+                document.getElementById("leftbgcol2").style.background = "#1f885d"
+
+                gsap.to("#i18", {
+                    scrollTrigger: "#i18",
+                    duration: 0.5, y: 0
+                });
+                gsap.to("#i19", {
+                    scrollTrigger: "#i19",
+                    duration: 0.5, y: 0
+                });
+                gsap.to(".abcclass", {
+                    scrollTrigger: ".abcclass",
+                    duration: 0.5, y: 0
+                });
+            }, 300)
+            document.getElementById('maintext').innerHTML = "Biggest Classifieds"
+            document.getElementById('mainbtm').innerHTML = "East Asia Countries"
+            document.getElementById('abctext').innerHTML = "ABC 23478"
+            document.getElementById('bestext').innerHTML = "We are the best web development"
+            document.getElementById('companytext').innerHTML = "company in the world"
+            document.getElementById('casetext').innerHTML = "Coming Soon"
+            document.getElementById('skiptext').innerHTML = "SKIP"
+
+
+        }
+
+
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+
+    </script>
+</body>
+
+</html>
